@@ -1,0 +1,3578 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.input-1 {
+  margin: 3% 1%;
+  width: 32rem;
+  height: 3rem;
+}
+.error {
+  color: red;
+}
+.button-1 {
+  width: 33rem;
+  height: 3rem;
+  background-color: black;
+  color: white;
+  border: none;
+  margin-left: 5%;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+}
+.input-2 {
+  width: 20rem;
+  height: 3rem;
+  
+  border-radius: 3px 3px 3px 3px;
+  background-color: lightblue;
+  color: white;
+  font-size: 1.5rem;
+  font-family: monospace;
+  border: 1px solid lightblue;
+}
+.input-3 {
+ 
+  height: 3rem;
+  width: 3rem;
+  border-radius: 3px 3px 3px 3px;
+  background-color: lightblue;
+  position: relative;
+  right: 7rem;
+ color: white;
+  font-size: 1.5rem;
+  font-family: monospace;
+  border: 1px solid lightblue;
+}
+.input-4 {
+  height: 3rem;
+  border-radius: 3px 3px 3px 3px;
+  background-color: lightblue;
+ color: white;
+  font-size: 1.5rem;
+  font-family: monospace;
+  position: relative;
+  right: 7rem;
+  border: 1px solid lightblue;
+  width: 9rem;
+  
+}
+.results {
+  margin: 0% 40%;
+}
+.button-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0% 40%;
+  gap: 15px;
+background-color: darkblue;
+  width: 23.5rem;
+  height: 25rem;
+
+  
+      }
+      .button-container {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin: 4% 2%;
+        
+    }
+   
+    .input-calculator {
+      margin: 2% 40%;
+      display: flex;
+      flex-direction: row;
+      gap: 0rem;
+    }
+  
+ .reset-button {
+    height: 2.5rem;
+    width: 6.8rem;
+   border-radius: 2px 2px 2px 2px ;
+    background-color: white;
+    color: black;
+    border: none; 
+    margin-left: 2%;
+    font-size: 1.2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.result-button {
+  height: 2.5rem;
+  width: 6.8rem;
+  border-radius: 2px 2px 2px 2px ;
+  background-color: white;
+  color: black;
+  border: none;
+ 
+  font-size: 1.5em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.result-button:hover {
+ 
+background-color: black;
+color: white;
+}
+.reset-button:hover {
+ 
+background-color: black;
+color: white;
+}
+.result {
+  margin-left: 18rem;
+  font-weight: bolder;
+
+}
+.yo {
+  background-color: blue;
+  color: red;
+}
+.div-1 {
+  display: flex;
+  flex-direction: column;
+}
+.buttob-15 {
+  width: 20rem;
+  height: 3rem;
+  border-radius: 6px 6px 6px 6px;
+  background-color: black;
+  color: white;
+} 
+.buttob-16 {
+  width: 35rem;
+  height: 3rem;
+  border-radius: 6px 6px 6px 6px;
+  background-color: black;
+  color: white;
+} 
+.calculator-button {
+  width: 40%;
+  height: 2.5rem;
+  font-size: 1.5em;
+  border-radius: 2px 2px 2px 2px;
+  border: none;
+ background-color: dodgerblue;
+ cursor: pointer;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.calculator-buttons {
+  width: 40%;
+  height: 2.5rem;
+  font-size: 1.5em;
+ 
+  border: none;
+ background-color: white;
+ cursor: pointer;
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.calculator-buttons:hover {
+ 
+  font-size: 2em;
+ 
+ background-color: black;
+ cursor: pointer;
+  color: white;
+}
+.calculator-button:hover {
+ 
+background-color: black;
+color: white;
+font-size: 2em;
+}
+.para1 {
+ border-radius: 30px 30px 30px 30px;
+  width: 40%;
+ 
+  transition: all;
+  transition-duration: 2s;
+
+}
+
+.para2 {
+  border-radius: 30px 30px 30px 30px;
+  position: relative;
+  left: 0rem;
+  width: 40%;
+
+
+  transition: all;
+  transition-duration: 2s;
+  
+}
+.imgs{
+  width: 100%;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  gap: 0rem;
+ height: 40rem;
+ overflow: hidden;
+overflow-x: hidden;
+  width: 100%;
+}
+.main-1 {
+  
+  width: 100%;
+  position: relative;
+  left: 0rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition: all;
+  transition-duration: 0.4s;
+  
+}
+.main-2 {
+ 
+  width: 0%;
+  left: 0rem;
+  transition: all;
+  transition-duration: 0.1s;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ 
+}
+.carrot {
+  background-image: url(carrots.jpg);
+  height: 20rem;
+  background-repeat: no-repeat;
+  color: rgb(31, 123, 215);
+  
+}
+.carrot:hover {
+opacity: 0.5;
+ 
+ 
+ 
+}
+.vola {
+  opacity: initial;
+  color: dodgerblue;
+}
+.opening-hours {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center; 
+  justify-content: space-around;
+font-size: 1.0em;
+font-family: Georgia, 'Times New Roman', Times, serif;
+ 
+ 
+}
+.opening-hourss {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center; 
+  justify-content: space-around;
+font-size: 1.5em;
+font-family: Georgia, 'Times New Roman', Times, serif;
+ 
+ 
+}
+.sign-up {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+
+  z-index: 3;
+}
+.form-details {
+  margin-top: 3%;
+  width: 100%;
+  margin-left: 10%;
+  z-index: 3;
+ 
+
+}
+#firstName {
+  width: 50%;
+  height: 2.5rem;
+  border-radius: 5px 5px 5px 5px;
+  caret-color: red;
+  border: 2px solid rgb(72, 242, 233);
+  font-family: 'Bitter', serif;
+  font-size: 1.1em;
+  padding-left: 1%;
+  margin-left: 20%;
+}
+#lastName {
+  width: 50%;
+  height: 2.5rem;
+  border-radius: 5px 5px 5px 5px;
+  caret-color: red;
+  border: 2px solid rgb(72, 242, 233);
+  font-family: 'Bitter', serif;
+  font-size: 1.1em;
+  padding-left: 1%;
+  margin-left: 20%;
+}
+#Age {
+
+height: 2.5rem;
+width: 51%;
+border-radius: 5px 5px 5px 5px;
+border: 2px solid rgb(72, 242, 233);
+margin-left: 20%;
+
+}
+.span-first-name {
+  font-size: 1.2em;
+  margin-left: 20%;
+  font-family: 'Bitter', serif;
+}
+.span-Age {
+  margin-left: 20%;
+  font-size: 1.2em;
+ 
+  font-family: 'Bitter', serif;
+  
+}
+.h2-details {
+  text-align: center;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.5em;
+  margin-right: 15%;
+  
+}
+.p-details {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  margin-left: 20%;
+}
+.image-animated {
+ 
+  z-index: 1;
+  height: 30rem;
+  width: 100%;
+  margin-right: 10%;
+}
+.image-sch {
+  width: 100%;
+}
+.span-Gender {
+  margin-left: 20%;
+  font-size: 1.2em;
+ 
+  font-family: 'Bitter', serif;
+}
+.gender {
+  width: 51.5%;
+  height: 3.5em;
+  border-radius: 5px 5px 5px 5px;
+  border: 2px solid rgb(72, 242, 233);
+  margin-left: 20%;
+  font-family: 'Bitter', serif;
+ 
+}
+#Email {
+  width: 50%;
+  height: 2.5rem;
+  border-radius: 5px 5px 5px 5px;
+  caret-color: red;
+   border: 2px solid rgb(72, 242, 233);
+   font-family: 'Bitter', serif;
+   font-size: 1.1em;
+   padding-left: 1%;
+   margin-left: 20%;
+   
+ 
+}
+.span-Email {
+  margin-left: 20%;
+ font-size: 1.2em;
+ 
+  font-family: 'Bitter', serif;
+}
+#Password {
+  width: 50%;
+  height: 2.5rem;
+  border-radius: 5px 5px 5px 5px;
+  caret-color: red;
+  border: 2px solid rgb(72, 242, 233);
+  font-family: 'Bitter', serif;
+  font-size: 1.1em;
+  padding-left: 1%;
+  margin-left: 20%;
+  
+}
+#Confirm-Password {
+  width: 50%;
+  height: 2.5rem;
+  border-radius: 5px 5px 5px 5px;
+  caret-color: red;
+  border: 2px solid rgb(72, 242, 233);
+  font-family: 'Bitter', serif;
+  font-size: 1.1em;
+  padding-left: 1%;
+  margin-left: 20%;
+}
+.confirm-Password {
+  margin-left: 20%;
+  font-size: 1.2em;
+ 
+  font-family: 'Bitter', serif;
+}
+.span-Password {
+  margin-left: 20%;
+  font-size: 1.2em;
+ 
+  font-family: 'Bitter', serif;
+}
+.sign-up-button {
+  height: 2.5rem;
+  background-color: gold;
+  color: white;
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+  width: 20%;
+  margin-left: 35%;
+  margin-top: 1%;
+  margin-bottom: 3%;
+  font-size: 1.5em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.sign-up-button:hover {
+  background-color: black;
+}
+.terms-and-condition {
+  font-family: 'Inter Tight', sans-serif;
+font-size: 1.1em;
+font-weight: 500;
+margin-left: 19.8%;
+
+}
+.error-message {
+  color: orangered;
+  font-family: 'Bitter', serif;
+  font-size: 1.0rem;
+  margin-left: 20%;
+ margin-top: 1%;
+ 
+ 
+}
+.error-message-password {
+  color: orangered;
+  font-family: 'Bitter', serif;
+  font-size: 1.0rem;
+ margin-top: 1%;
+ margin-left: 20%;
+ 
+}
+.error-message-email {
+  color: orangered;
+  font-family: 'Bitter', serif;
+  font-size: 1.0rem;
+ margin-top: 1%;
+ margin-left: 20%;
+ 
+}
+.error_message {
+  color: orangered;
+  font-family: 'Bitter', serif;
+  font-size: 1.0rem;
+ text-align: center;
+margin-left: -37%;
+  margin-top: 1%;
+}
+.sign-up-link {
+  color: white;
+  text-decoration: none;
+}
+
+.checkbox {
+  accent-color: dodgerblue;
+}
+.header {
+  display: flex;
+  justify-content:space-between;
+  width: 100%;
+  align-items: center;
+  background-color: rgba(201, 8, 46, 0.9);
+  color: white;
+  position: sticky;
+  z-index: 3;
+  top: 0;
+ 
+}
+.navbar {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  font-size: 1.1em;
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+  cursor: pointer;
+ font-weight: bold;
+
+ 
+}
+.navbar :hover {
+  color: black;
+  text-decoration: underline;
+}
+.navbar-link {
+  color: white;
+  text-decoration: none;
+}
+.navbar-link:hover {
+  color: black;
+ 
+}
+.education-logo {
+  width: 11%;
+  border-radius: 50%;
+ 
+}
+
+.name-of-school {
+color: black;
+ margin-left: 1%;
+ font-family: 'Acme', sans-serif;
+ display: flex;
+ flex-direction: row;
+ gap: 0.4rem;
+ 
+}
+.name-of-schools {
+ 
+  
+ 
+}
+.navbar-div {
+ display: flex;
+ 
+ margin: 0% 2%;
+ 
+ width: 50%;
+}
+.span-name-of-school {
+  color: white;
+}
+.button-header {
+  width: 100%;
+  height: 2.5em;
+  background-color: white;
+  border: none;
+  outline: 3px solid orange;
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  transition: all;
+  transition: 0.5s;
+  transition-timing-function: ease-in;
+  border-radius: 3px 3px 3px 3px;
+ cursor: pointer;
+}
+.button-header:hover {
+  color: white;
+  background-color: orange;
+  outline: 2px solid white;
+  border: none;
+}
+.button-header-link {
+  color: black;
+  text-decoration: none;
+}
+.button-header-link:hover {
+  color: white;
+}
+.group-header-button {
+  margin: 2% 1%;
+
+  width: 20%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.slideshow-changing {
+  display: flex;
+  justify-content: center;
+  margin: 2% 0%;
+}
+.slideshow-changing > div {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+ background-color: gray;
+  margin: 2% 0.5%;
+}
+#slideshow-changing-secondname {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+ background-color: lightgray;
+  margin: 2% 0.5%;
+}
+.leading-school {
+  font-size: 3.5em;
+  font-family: 'Bitter', serif;
+}
+.leading-school-paragraph {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+  font-size: 1.1em;
+  line-height: 27px;
+}
+.main-1-first-div {
+  
+  width: 50%;
+ 
+ 
+  
+}
+.main-1-button {
+  height: 2.5rem;
+  font-size: 1.5em;
+  background-color: dodgerblue;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px 8px 8px 8px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main-1-button:hover {
+  background-color: teal;
+
+}
+.quick-display {
+ 
+  text-align: center;
+  font-size: 1.5em;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+  background-color: white;
+  width: 100%;
+}
+.entrance-exam {
+ 
+  height: 30rem;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+ 
+ 
+ 
+ 
+  
+}
+.upcoming-exam-h2 {
+  color: black;
+  font-size: 1.5em;
+  font-family: 'Bitter', serif;
+
+}
+.upcoming-exam-p {
+
+  font-size: 1.2em;
+  font-family: 'Bitter', serif;
+  color: rgb(103, 95, 95);
+  margin: 0% 2%;
+  line-height: 27px;
+}
+.upcoming-exam-button {
+  height: 2.5rem;
+  margin: 4% 0%;
+  font-size: 1.3em;
+  background-color: dodgerblue;
+  color: mintcream;
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+font-family: 'Times New Roman', Times, serif;
+}
+.upcoming-exam-link {
+  text-decoration: none;
+  color: white;
+}
+.upcoming-exam-button:hover {
+  background-color: teal;
+}
+
+.common-entrance {
+  height: fit-content;
+  box-shadow: 3px 3px 3px 3px lightgray;
+  width: 30%;
+  border-radius: 10px 10px 10px 10px;
+background-color: white;
+  
+ 
+}
+.categories-exam {
+  display: flex;
+  justify-content: space-around;
+  
+}
+.entrance-image {
+  width: 100%;
+  margin: 0% 0%;
+}
+.entrance-image-3 {
+  width: 100%;
+  margin: 0% 0%;
+  margin-bottom: 1.5%;
+ 
+}
+.entrance-information {
+  text-align: center;
+}
+.entrance-h2 {
+  text-align: center;
+}
+.instructions {
+  padding-left: 2%;
+  font-family: 'Bitter', serif;
+}
+.question {
+  padding-left: 2%;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.0em;
+}
+input[type=radio] {
+  accent-color: blue;
+}
+.link {
+  color: black;
+  text-decoration: none;
+}
+.submit-section {
+ text-align: center;
+ font-family: 'Bitter', serif;
+}
+.submit-button {
+ 
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+  background-color: orangered;
+  height: 2.5em;
+  width: 10%;
+  border-radius: 3px 3px 3px 3px;
+  border: none;
+  color: white;
+  margin: 2% 2.5%;
+  cursor: pointer;
+
+}
+.submit-button:hover {
+  background-color: coral;
+  color: black;
+}
+.next-page-link {
+  text-decoration: none;
+  color: white;
+}
+.next-page-link:hover {
+color: black;
+}
+.what-we-offer {
+  margin-top: 15%;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: darkblue;
+  color: white;
+  height: 25.1rem;
+}
+.information-courses {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  margin-left: 10%;
+ 
+  width: 100%;
+  font-size: 1.5em;
+}
+.information-image {
+background-image: url(group-of-teachers.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+width: 50%;
+height: 25.1rem;
+
+
+ 
+}
+.information-paragraph {
+  color: lightgray;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.our-skills-h2 {
+  text-align: center;
+  font-size: 2em;
+}
+.our-skills {
+ margin: 5% 0%;
+}
+.progress-bar {
+  width: 95%;
+  height: 2em;
+  margin: 0% 2%;
+  accent-color: green;
+ 
+}
+.our-skills-strong {
+  margin-left: 2%;
+  font-size: 1.3em;
+  font-family: 'Fira Mono', monospace;
+}
+.our-skills-paragraph {
+  text-align: center;
+  font-family: 'Bitter', serif;
+  font-size: 1.3em;
+}
+
+.header-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.heading-icon{
+color: dodgerblue;
+font-size: 1.2em;
+}
+.upcoming-events-h2 {
+  text-align: center;
+  font-size: 3em;
+  font-family: 'Bitter', serif; 
+}
+.upcoming-events-span {
+  text-align: center;
+  font-size: 1em;
+  font-family: 'Fira Mono', monospace;
+}
+.upcoming-news {
+  margin: 2% 13.5%;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: 3px 3px 3px 3px lightgray;
+  border-radius: 10px 10px 10px 10px;
+  
+  background-image: linear-gradient(to left, rgb(54, 114, 114), green);
+  
+}
+.upcoming-image {
+ max-width: 100%;
+  border-radius: 30px 30px 30px 30px;
+  margin: 1% 1%;
+ 
+}
+.upcoming-events {
+  line-height: 2.5px;
+ 
+
+}
+.main-event {
+  font-family: 'Bitter', serif; 
+  line-height: 26px;
+  font-size: 1.1em;
+  color: white;
+  padding: 1%;
+}
+.upcoming-images-section {
+  
+  width: 50%;
+}
+.upcoming-icon {
+  color: darkgray;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2em;
+}
+.view-events {
+ width: 18%;
+ height: 2.2em;
+border-radius: 30px 30px 30px 30px;
+background-color: black;
+ color: whitesmoke;
+ margin: 1% 0%;
+ font-size: 1.5em;
+ border: none;
+ cursor: pointer;
+ font-family: 'Bitter', serif; 
+}
+.view-events:hover {
+ background-color: grey;
+}
+.view-events-div {
+  text-align: center;
+}
+.storedValues {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.2em;
+}
+.stored-button {
+  font-size: 1em;
+  font-family: 'Bitter', serif; 
+  border-radius: 2px 2px 2px 2px;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: black;
+}
+.stored_values {
+  display: none;
+  gap: 0.5rem;
+  text-align: center;
+  justify-content: center;
+  font-size: 0.9em;
+}
+.event-time {
+  height: fit-content;
+  background-color: lightgrey;
+  width: 18%;
+  text-align: center;
+  margin-left: 3%;
+  font-size: 1.3em;
+  padding: 0% 1%;
+  font-family: 'Bitter', serif;
+  border-radius: 5px 5px 5px 5px; 
+  
+ 
+}
+.event-fullList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-size: 1.0em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+}
+.event-news {
+ margin: 2% 3%;
+ 
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+ 
+  border-radius: 10px 10px 10px 10px;
+  background-color: rgb(158, 89, 58);
+  background-color: rgb(54, 114, 114);
+  
+}
+.event-image {
+  width: 100%;
+  border-radius: 30px 30px 30px 30px;
+margin-top: 1%;
+margin-left: 1.5%;
+ 
+}
+.contact-us {
+  width: 100%;
+ 
+  height: 10rem;
+  text-align: center;
+padding-top: 3.5%;
+font-size: 2.5em;
+background-image: url(iphone-7.jpg);
+background-repeat: no-repeat;
+background-position: 0.5%;
+opacity: 0.7;
+color: white;
+background-size: cover;
+height: 35rem;
+}
+.contact-h2 {
+  filter: brightness(100%);
+  color: white;
+}
+.contact-us-information {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 4% 0%;
+ 
+  width: 100%;
+}
+.contact-us-information-box {
+  font-size: 1.3em;
+  border-right-width: 1px;
+  border-left-color: lightgray;
+ border-left-style: solid;
+ border-left-width: 1px;
+ border-top-width: none;
+ border-bottom-width: none;
+ padding-left: 5%;
+ font-family: 'Oswald', sans-serif;
+ 
+
+}
+.contact-us-information-box > h2 {
+  color: rgb(72, 172, 72);
+}
+.contact-us-information-box-3 {
+  font-size: 1.3em;
+  font-family: 'Oswald', sans-serif;
+
+}
+.contact-us-information-box-3 > h2 {
+  color: rgb(72, 172, 72);
+}
+.contact-us-information-box > span {
+
+}
+.form-input-contact-us {
+display: flex;
+justify-content: space-around;
+gap: 1rem;
+margin: 2% 2%;
+
+
+}
+#name-contact {
+  width: 70%;
+  height: 2em;
+  font-size: 1.2em;
+  padding-left: 1%;
+  border: 2px solid black;
+  color: black;
+}
+#subject-contact {
+  width: 70%;
+  height: 2em;
+  font-size: 1.2em;
+  padding-left: 1%;
+  border: 2px solid black;
+  color: black;
+}
+#email-contact {
+  width: 70%;
+  height: 2em;
+  font-size: 1.2em;
+  padding-left: 1%;
+  border: 2px solid black;
+  color: black;
+}
+.leave-us-a-message {
+  text-align: center;
+  font-size: 2.0em;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.textarea-contact-us {
+ margin: 1% 1%;
+ width: 92.5%;
+}
+#textarea {
+  margin: 1% 3%;
+  width: 100%;
+  border: 2px solid black;
+  
+}
+hr {
+  width: 70%;
+  margin: 2.5% 14%;
+ 
+}
+.send-us-a-message {
+  display: flex;
+  justify-content: center;
+  margin: 1% 0%;
+}
+.send-us-a-message-button {
+  background-color: rgb(34, 34, 153);
+  color: whitesmoke;
+  border-radius: 30px 30px 30px 30px;
+  height: 2.7rem;
+  text-align: center;
+  border: none;
+  font-size: 1.0em;
+  cursor: pointer;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.our-awesome-teachers {
+text-align: center;
+line-height: 16px;
+margin: 4% 0%;
+
+}
+.our-awesome-teachers-h2 {
+  font-size: 2.5em;
+  color: orange;
+  font-family: 'Raleway', sans-serif;
+}
+.our-awesome-teachers > p {
+  font-family: 'Bitter', serif;
+}
+.teachers {
+  display: flex;
+  justify-content: space-around;
+  margin: 2% 0%;
+}
+.image-teacher {
+  width: 80%;
+  border-radius: 0px 30px 0px 30px;
+  font-family: 'Poppins', sans-serif;
+}
+.teachers-div > h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2em;
+ 
+}
+.teachers-div > p  {
+  font-family: 'Poppins', sans-serif;
+}
+.course-image {
+  background-image: url(course.jpg);
+  background-size: cover;
+  height: 40rem;
+  width: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  line-height: 15px;
+ margin-bottom: 5%;
+  
+ 
+}
+.course-h2 {
+  font-size: 3em;
+  margin-top: 20%;
+ 
+}
+.course-p {
+  font-size: 2em;
+  color: rgb(8, 130, 252);
+  font-family: 'Oswald', sans-serif;
+}
+.course-department {
+  text-align: center;
+  line-height: 15px;
+}
+.course-department-h2 {
+  font-size: 3em;
+  font-family: 'Poppins', sans-serif;
+  
+}
+.course-department-p {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.course-science {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  margin: 2% 4%;
+}
+.course-images {
+ border-radius: 50%;
+ width: 18rem;
+ height: 18rem;
+}
+.course-name-science {
+  font-family: 'Source Serif Pro', serif;
+  font-weight: light;
+
+}
+.course-business {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 1rem;
+  align-items: center;
+  margin: 2% 4%;
+}
+.input-course {
+ width: 50%;
+ height: 3em;
+ border: 2px solid black;
+ border-radius: 5px 5px 5px 5px;
+ padding-left: 1%;
+ font-size: 1.1em;
+ font-family: 'Source Serif Pro', serif;
+ font-weight: bolder;
+}
+.select-course {
+  width: 50%;
+  height: 3.4em;
+  margin: 0% 1%;
+  border-radius: 5px 5px 5px 5px;
+  border: 2px solid black;
+  font-size: 1.1em;
+  font-family: 'Source Serif Pro', serif;
+  font-weight: bolder;
+  
+  
+}
+.box-ref {
+  display: flex;
+  justify-content: space-around;
+  margin: 1% 2%;
+ 
+}
+.course-information {
+  text-align: center;
+  font-size: 1.3em;
+}
+.course-information-div > h2 > span {
+  font-family: 'Poppins', sans-serif;
+  font-weight: lighter;
+  color: black;
+}
+.course-information-div {
+  display: flex;
+  justify-content: space-evenly;
+}
+.course-information-div >h2 {
+  color: mediumseagreen;
+}
+.course-button-div {
+  display: flex;
+  justify-content: center;
+  margin: 4% 0%;
+}
+.course-button {
+  background-color: orangered;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  height: 2.5em;
+  font-size: 1.5em;
+  border-radius: 2px 2px 2px 2px;
+  border: none;
+}
+.course-button:hover {
+  background-color: black;
+  color: white;
+}
+.footer {
+  width: 100%;
+ height: 20rem;
+ background-color: rgb(95, 7, 7);
+ color: rgb(235, 123, 123);
+ display: flex;
+ justify-content: space-around;
+ margin-top: 5%;
+ 
+}
+.footer-quick-links-ul {
+ 
+  display: flex;
+  flex-direction: column;
+  gap: 1.0rem;
+  font-size: 1.1em;
+ color: white;
+ font-family: 'Source Serif Pro', serif;
+  cursor: pointer;
+
+}
+.footer-quick-links-ul :hover {
+  color: darkorange;
+}
+.footer-logo {
+ margin-top: 1%;
+  width: 20%;
+  font-family: 'Poppins', sans-serif;
+ 
+
+}
+.footer-information {
+  font-family: 'Source Serif Pro', serif;
+  line-height: 30px;
+}
+.education-logos {
+  width: 27%;
+  border-radius: 50%;
+ 
+}
+.footer-quick-links {
+  font-family: 'Source Serif Pro', serif;
+}
+.social-media {
+  background-color: rgb(67, 4, 4);
+  height: 3.2rem;
+  display: flex;
+  justify-content: space-around;
+color: gray;
+  margin: 0% 0%;
+  
+}
+.copyright-p {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background-color: black;
+  color: white;
+ 
+}
+.social-media-icon {
+  font-size: 2em;
+  margin: 2% 2%;
+  color: white;
+  
+}
+.social-medias {
+  width: 30%;
+}
+.about-image {
+  background-image: url(school-building6.jpg);
+  background-size: cover;
+  height: 35rem;
+  width: 100%;
+  background-repeat: no-repeat;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  line-height: 15px;
+ margin-bottom: 5%;
+}
+.our-History {
+ text-align: center;
+}
+.history-p {
+  margin: 2% 4%;
+  line-height: 30px;
+  font-family: 'Bitter', serif;
+ 
+}
+.our-mission {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 98%;
+  margin: 6% 1%;
+  font-family: 'Bitter', serif;
+  line-height: 30px;
+}
+.our-vision-div {
+  border-right-width: 1px;
+  border-left-color: lightgray;
+ border-left-style: solid;
+ border-left-width: 1px;
+ border-top-width: none;
+ border-bottom-width: none;
+ padding-left: 1%;
+}
+.our-vision-div > h2 {
+  font-size: 2em;
+ color: firebrick;
+}
+.our-mission-div > h2 {
+  font-size: 2em;
+ color: firebrick;
+}
+.our-mission-div {
+  padding-left: 1%;
+}
+.gallery {
+  text-align: center;
+  font-size: 2em;
+}
+.gallery-div {
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+  text-align: center;
+}
+.the-library {
+  width: 60%;
+ background-color: lightgray;
+  height: 22.3rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+.the-library-2 {
+  width: 60%;
+  background-color: silver;
+   height: 25rem;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 3em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.gallery-image-2 {
+  width: 100%;
+}
+.div-fa-bars {
+  display: none;
+}
+.footer-1 {
+  display: none;
+}
+.social-media-1 {
+  display: none;
+ }
+ .dropdown {
+  display: none;
+ }
+@media only screen and (max-width: 1400px)  {
+  .upcoming-images-section {
+  
+    width: 100%;
+  }
+  .div-fa-bars {
+    display: none;
+  }
+  .social-media-1 {
+    display: none;
+   }
+
+}
+@media only screen and (max-width: 1200px)  {
+  .footer-1 {
+    display: none;
+  }
+body {
+  background-color: white;
+}
+.leading-school {
+  font-size: 2.5em;
+  font-family: 'Bitter', serif;
+}
+.leading-school-paragraph {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+  font-size: 1.0em;
+  line-height: 25px;
+}
+.opening-hours {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  align-items: center; 
+ text-align: center;
+font-size: 0.9em;
+text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.header-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.heading-icon{
+color: dodgerblue;
+font-size: 1.0em;
+}
+.navbar {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 1.4rem;
+  font-size: 1.0em;
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+  cursor: pointer;
+ font-weight: bold;
+ margin-right: 2%;
+
+ 
+}
+.group-header-button {
+  margin: 2% 1%;
+
+  width: 32%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.name-of-schools {
+  font-size: 1.3em;
+}
+.upcoming-exam-h2 {
+  color: black;
+  font-size: 1.2em;
+  font-family: 'Bitter', serif;
+
+}
+.upcoming-exam-p {
+
+  font-size: 1.0em;
+  font-family: 'Bitter', serif;
+  color: rgb(103, 95, 95);
+  margin: 0% 1%;
+  line-height: 25px;
+}
+.upcoming-exam-button {
+  height: 2.5rem;
+  margin: 4% 0%;
+  font-size: 1.3em;
+  background-color: dodgerblue;
+  color: mintcream;
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+font-family: 'Times New Roman', Times, serif;
+}
+.what-we-offer {
+  margin-top: 15%;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: darkblue;
+  color: white;
+  height: 25.1rem;
+}
+.information-courses {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  margin-left: 5%;
+ 
+  width: 100%;
+  font-size: 1.3em;
+}
+.information-image {
+background-image: url(group-of-teachers.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+width: 50%;
+height: 25.1rem;
+
+
+ 
+}
+.information-paragraph {
+  color: lightgray;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.upcoming-events-h2 {
+  text-align: center;
+  font-size: 2.5em;
+  font-family: 'Bitter', serif; 
+}
+.upcoming-events-span {
+  text-align: center;
+  font-size: 1em;
+  font-family: 'Fira Mono', monospace;
+}
+.upcoming-news {
+  margin: 2% 13.5%;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: 3px 3px 3px 3px lightgray;
+  border-radius: 10px 10px 10px 10px;
+  
+  background-image: linear-gradient(to left, rgb(54, 114, 114), green);
+  
+}
+.upcoming-image {
+ max-width: 100%;
+  border-radius: 30px 30px 30px 30px;
+  margin: 1% 2%;
+ 
+}
+.upcoming-events {
+  line-height: 2.5px;
+ 
+
+}
+.main-event {
+  font-family: 'Bitter', serif; 
+  line-height: 20px;
+  font-size: 1.0em;
+  color: white;
+  padding: 1%;
+}
+.upcoming-images-section {
+  
+  width: 100%;
+}
+.upcoming-icon {
+  color: darkgray;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1em;
+}
+.view-events {
+ width: 18%;
+ height: 2.2em;
+border-radius: 30px 30px 30px 30px;
+background-color: black;
+ color: whitesmoke;
+ margin: 1% 0%;
+ font-size: 1.2em;
+ border: none;
+ cursor: pointer;
+ font-family: 'Bitter', serif; 
+}
+.view-events:hover {
+ background-color: grey;
+}
+.view-events-div {
+  text-align: center;
+}
+.footer-logo {
+  margin-top: 1%;
+   width: 20%;
+   font-family: 'Poppins', sans-serif;
+   
+  
+ 
+ }
+ .footer-logo-h2 {
+ font-size: 1.1em;
+   
+  
+ 
+ }
+ .footer-1 {
+  display: none;
+ }
+ .social-media-1 {
+  display: none;
+ }
+
+
+}
+@media only screen and (max-width: 1000px)  { 
+  
+  .dropdown {
+    display: block;
+  z-index: 3;
+ 
+  background-color: lightgray;
+    width: 0%;
+    height: fit-content;
+    position: absolute;
+    left: -30rem;
+    top: 5.9rem;
+    transition: all;
+    transition-duration: 1s;
+  }
+  
+  .group-button-dropdown {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+   justify-content: center;
+   align-items: center;
+   margin-left: 5%;
+  }
+  .dropdown-ul {
+    text-align: center;
+    list-style-type: none;
+
+  }
+  .dropdown-li {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 1.5em;
+    font-family: 'Source Serif Pro', serif;
+
+  }
+  .dropdown-div {
+    text-align: center;
+  }
+  .button-dropdown {
+    height: 2.8em;
+ background-color: orange;
+ font-family: 'Bitter', serif;
+    border: none;
+    color: white;
+    width: 60%;
+    border-radius: 3px 3px 3px 3px;
+    font-size: 1.1em;
+  }
+  .fatimes {
+    float: right;
+    color: white;
+    margin: 2% 2%;
+  }
+  .header-icons {
+    display: none;
+    flex-direction: row;
+    gap: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .navbar {
+    list-style-type: none;
+    display: none;
+    flex-direction: row;
+    gap: 1.4rem;
+    font-size: 1.0em;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+   font-weight: bold;
+   margin-right: 2%;
+  
+   
+  }
+  .div-fa-bars {
+    display: flex;
+    margin: 0% 2%;
+    font-size: 1.1em;
+  }
+  .group-header-button {
+    display: none;
+  }
+  .main {
+  
+  margin: 0% 0%;
+ width: 100%;
+ height: 60rem;
+ z-index: 1;
+  }
+  .main-1 {
+    
+    width: 100%;
+    height: fit-content;
+    display: flex;
+  flex-direction: column-reverse;
+   gap: 2rem;
+    transition: all;
+    transition-duration: 0.4s;
+   
+    
+  }
+  .main-2 {
+  
+    width: 0%;
+    height: fit-content;
+    left: 0rem;
+    transition: all;
+    transition-duration: 0.1s;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 2rem;
+   
+   
+   
+  }
+  .para1 {
+    border-radius: 0px 0px 0px 0px;
+     width: 100%;
+     margin-top: 0%;
+    
+     transition: all;
+     transition-duration: 2s;
+   
+   }
+   
+   .para2 {
+    
+     border-radius: 0px 0px 0px 0px;
+     width: 100%;
+     margin-top: 0%;
+   
+   
+     transition: all;
+     transition-duration: 2s;
+     
+   }
+   .main-1-first-div {
+  
+    width: 100%;
+   
+   
+    
+  }
+  .leading-school {
+    margin-left: 2%;
+  }
+  .leading-school-paragraph {
+    margin-left: 2%;
+  }
+  .main-1-button {
+    margin-left: 2%;
+   
+  }
+  .common-entrance {
+    height: fit-content;
+    box-shadow: 3px 3px 3px 3px lightgray;
+    width: 45%;
+    border-radius: 10px 10px 10px 10px;
+  background-color: white;
+    
+   
+  }
+  .categories-exam {
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  #common-entrance-3 {
+    display: none;
+  }
+  .entrance-image {
+    width: 100%;
+    margin: 0% 0%;
+  }
+  .entrance-image-3 {
+    width: 100%;
+    margin: 0% 0%;
+    margin-bottom: 1.5%;
+   
+  }
+  .entrance-information {
+    text-align: center;
+  }
+  .entrance-h2 {
+    text-align: center;
+  }
+  .information-image {
+    display: none;
+  }
+  .what-we-offer {
+    margin-top: 20%;
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: center;
+   
+    align-items: center;
+    width: 100%;
+    background-color: darkblue;
+    color: white;
+    height: 25.1rem;
+  }
+  .information-courses {
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+    margin-left: 1%;
+   
+    width: 100%;
+    font-size: 1.8em;
+  }
+  .upcoming-events-h2 {
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Bitter', serif; 
+    margin-top: 10%;
+  }
+  .upcoming-events-span {
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Fira Mono', monospace;
+  }
+  .upcoming-news {
+    margin: 2% 3.5%;
+    width: 93%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 3px 3px 3px 3px lightgray;
+    border-radius: 10px 10px 10px 10px;
+    
+    background-image: linear-gradient(to left, rgb(54, 114, 114), green);
+    
+  }
+  .upcoming-image {
+   max-width: 100%;
+    border-radius: 30px 30px 30px 30px;
+    margin: 1% 2%;
+   
+  }
+  .event-image {
+    width: 100%;
+    border-radius: 30px 30px 30px 30px;
+  margin-top: 1%;
+  margin-left: 1.5%;
+   
+  }
+  .event-news {
+    margin: 2% 3.5%;
+    width: 93%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 3px 3px 3px 3px lightgray;
+    border-radius: 10px 10px 10px 10px;
+     background-color: rgb(54, 114, 114);
+     
+   }
+  
+  .upcoming-events {
+    line-height: 2.5px;
+   
+  
+  }
+  .main-event {
+    font-family: 'Bitter', serif; 
+    line-height: 23px;
+    font-size: 1.0em;
+    color: white;
+    padding: 1%;
+  }
+  .upcoming-images-section {
+    
+    width: 100%;
+  }
+  .upcoming-icon {
+    color: darkgray;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+  }
+  .view-events {
+   width: 20%;
+   height: 2.2em;
+  border-radius: 30px 30px 30px 30px;
+  background-color: black;
+   color: whitesmoke;
+   margin: 1% 0%;
+   font-size: 1.1em;
+   border: none;
+   cursor: pointer;
+   font-family: 'Bitter', serif; 
+  }
+  .view-events:hover {
+   background-color: grey;
+  }
+  .view-events-div {
+    text-align: center;
+  }
+  .course-images {
+    border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+   }
+   .course-department {
+    text-align: center;
+    line-height: 15px;
+  }
+  .course-department-h2 {
+    font-size: 3em;
+    font-family: 'Poppins', sans-serif;
+    
+  }
+  .course-department-p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .course-science {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    margin: 2% 2%;
+  }
+  
+  .course-name-science {
+    font-family: 'Source Serif Pro', serif;
+    font-weight: light;
+    font-size: 1.0em;
+  }
+  .course-business {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1rem;
+    align-items: center;
+    margin: 2% 2%;
+  }
+  .our-awesome-teachers {
+    margin-top: 10%;
+  }
+  .our-awesome-teachers > p {
+    font-size: 1.4em;
+  }
+  .footer {
+    display: none;
+  }
+  .footer-1 {
+    display: block;
+    background-color: rgb(95, 7, 7);
+    color: rgb(235, 123, 123);
+  }
+  .footer-1-display {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(95, 7, 7);
+ color: rgb(235, 123, 123);
+  }
+  .social-media {
+    display: none;
+  }
+  .social-media-1 {
+    background-color: rgb(67, 4, 4);
+    height: fit-content;
+    display: flex;
+   flex-direction: column;
+   gap: 0rem;
+   text-align: center;
+  color: gray;
+    margin: 0% 0%;
+    
+  }
+  .social-medias-1 {
+    width: 100%;
+  }
+  .footer-logo-1 {
+    margin-top: 2%;
+     width: 80%;
+     font-family: 'Poppins', sans-serif;
+     text-align: center;
+     display: flex;
+     justify-content: center;
+
+     align-items: center;
+     margin-left: 10%;
+    
+   
+   }
+   .copy-right-p-1 {
+    font-size: 1.2em;
+   }
+   .social-media-icon-1 {
+    font-size: 2.5em;
+    margin: 2.5% 2%;
+    color: white;
+    
+  }
+   .education-logos-1 {
+    width: 20%;
+    border-radius: 50%;
+    margin-top: 2%;
+    margin-right: 1.5%;
+   
+  }
+  .sign-up {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+  height: fit-content;
+    z-index: 3;
+  }
+  .sign-up-button {
+    height: 2.5rem;
+    background-color: gold;
+    color: white;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    width: 40%;
+    margin-left: 25%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    font-size: 1.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+}
+
+@media only screen and (max-width: 945px)  { 
+
+  .main {
+  
+    margin: 0% 0%;
+   width: 100%;
+   height: 58rem;
+    }
+    .main-1 {
+      
+      width: 100%;
+      height: fit-content;
+      display: flex;
+    flex-direction: column-reverse;
+     gap: 2rem;
+      transition: all;
+      transition-duration: 0.4s;
+     
+      
+    }
+    .main-2 {
+    
+      width: 0%;
+      height: fit-content;
+      left: 0rem;
+      transition: all;
+      transition-duration: 0.1s;
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 2rem;
+     
+     
+     
+    }
+    .para1 {
+      border-radius: 0px 0px 0px 0px;
+       width: 100%;
+       margin-top: 0%;
+      
+       transition: all;
+       transition-duration: 2s;
+     
+     }
+     
+     .para2 {
+      
+       border-radius: 0px 0px 0px 0px;
+       width: 100%;
+       margin-top: 0%;
+     
+     
+       transition: all;
+       transition-duration: 2s;
+       
+     }
+     .main-1-first-div {
+    
+      width: 100%;
+     
+     
+      
+    }
+    .leading-school {
+      margin-left: 2%;
+    }
+    .leading-school-paragraph {
+      margin-left: 2%;
+    }
+    .main-1-button {
+      margin-left: 2%;
+     
+    }
+
+}
+@media only screen and (max-width: 799px) {
+  .categories-exam {
+    display: flex;
+  flex-direction: column;
+  margin-bottom: 10%;
+ 
+ 
+    
+  }
+  .what-we-offer {
+    margin-top: 10%;
+    margin-bottom: 12%;
+    display: flex;
+   
+    align-items: center;
+    width: 100%;
+    background-color: darkblue;
+    color: white;
+    height: fit-content;
+    text-align: center;
+  }
+  .information-courses {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    margin-left: 5%;
+   
+    width: 100%;
+    font-size: 1.5em;
+  }
+  .common-entrance {
+    height: fit-content;
+    box-shadow: 3px 3px 3px 3px lightgray;
+    width: 91%;
+    margin: 5% 4%;
+    border-radius: 10px 10px 10px 10px;
+  background-color: white;
+    
+   
+  }
+  .entrance-exam {
+ 
+    height: fit-content;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+   
+   
+   
+   
+    
+  }
+  .main {
+  
+    margin: 0% 0%;
+   width: 100%;
+   height: 58rem;
+    }
+    .main-1 {
+      
+      width: 100%;
+      height: fit-content;
+      display: flex;
+    flex-direction: column-reverse;
+     gap: 2rem;
+      transition: all;
+      transition-duration: 0.4s;
+     
+      
+    }
+    .main-2 {
+    
+      width: 0%;
+      height: fit-content;
+      left: 0rem;
+      transition: all;
+      transition-duration: 0.1s;
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 2rem;
+     
+     
+     
+    }
+    .para1 {
+      border-radius: 0px 0px 0px 0px;
+       width: 100%;
+       height: 30rem;
+       margin-top: 0%;
+      
+       transition: all;
+       transition-duration: 2s;
+     
+     }
+     
+     .para2 {
+      
+       border-radius: 0px 0px 0px 0px;
+       width: 100%;
+       margin-top: 0%;
+       height: 30rem;
+     
+     
+       transition: all;
+       transition-duration: 2s;
+       
+     }
+     .main-1-first-div {
+    
+      width: 100%;
+     
+     
+      
+    }
+    .leading-school {
+      margin-left: 2%;
+    }
+    .leading-school-paragraph {
+      margin-left: 2%;
+      line-height: 31px;
+    }
+    .main-1-button {
+      margin-left: 2%;
+     
+    }
+    .our-awesome-teachers {
+      text-align: center;
+      line-height: 16px;
+      margin: 8% 0%;
+      
+
+      
+      }
+      .our-awesome-teachers-h2 {
+        font-size: 2.2em;
+        color: orange;
+        font-family: 'Raleway', sans-serif;
+      }
+      .our-awesome-teachers > p {
+        font-family: 'Bitter', serif;
+        line-height: 25px;
+      }
+      .teachers {
+        display: flex;
+       flex-direction: column;
+       gap: 1.5em;
+        margin: 2% 0%;
+      }
+      .image-teacher {
+        width: 80%;
+        border-radius: 0px 30px 0px 30px;
+        font-family: 'Poppins', sans-serif;
+      }
+      .teachers-div > h2 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 2em;
+       
+      }
+      .teachers-div > p  {
+        font-family: 'Poppins', sans-serif;
+      }
+      .upcoming-events-h2 {
+        text-align: center;
+        font-size: 3em;
+        font-family: 'Bitter', serif; 
+      }
+      .upcoming-events-span {
+        text-align: center;
+        font-size: 1em;
+        font-family: 'Fira Mono', monospace;
+      }
+      .upcoming-news {
+        margin: 6% 3.5%;
+        width: 93%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        box-shadow: 3px 3px 3px 3px lightgray;
+        border-radius: 10px 10px 10px 10px;
+        text-align: center;
+        background-image: linear-gradient(to left, rgb(54, 114, 114), green);
+        
+      }
+      .upcoming-image {
+       width: 100%;
+        border-radius: 2px 2px 2px 2px;
+        margin: 0% 0%;
+       
+      }
+      .upcoming-events {
+        line-height: 2.5px;
+       
+      
+      }
+      .main-event {
+        font-family: 'Bitter', serif; 
+        line-height: 30px;
+        font-size: 1.1em;
+        color: white;
+        padding: 1%;
+      }
+      .upcoming-images-section {
+        
+        width: 100%;
+      }
+      .upcoming-icon {
+        color: darkgray;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.2em;
+      }
+      .view-events {
+       width: 36%;
+       height: 2.2em;
+      border-radius: 30px 30px 30px 30px;
+      background-color: black;
+       color: whitesmoke;
+       margin: 1% 0%;
+       font-size: 1.3em;
+       border: none;
+       cursor: pointer;
+       font-family: 'Bitter', serif; 
+      }
+      .view-events:hover {
+       background-color: grey;
+      }
+      .view-events-div {
+        text-align: center;
+      }
+      .footer-1-display {
+        display: flex;
+       flex-direction: column;
+       gap: 1.5rem;
+        background-color: rgb(95, 7, 7);
+     color: rgb(235, 123, 123);
+    margin-left: 5%;
+    margin-top: 3%;
+   
+      }
+      .copy-right-p-1 {
+        font-size: 1.0em;
+       }
+       .social-media-icon-1 {
+        font-size: 2.1em;
+        margin: 2.5% 2%;
+        color: white;
+        
+      }
+      .education-logo {
+        width: 15%;
+        border-radius: 50%;
+       
+      }
+      .box-ref {
+        display: flex;
+       flex-direction: column;
+       gap: 2rem;
+        margin: 3% 2%;
+        width: 94%;
+       
+      }
+      .input-course {
+        width: 96%;
+        height: 3em;
+        border: 2px solid black;
+        border-radius: 5px 5px 5px 5px;
+        padding-left: 1%;
+        font-size: 1.1em;
+        font-family: 'Source Serif Pro', serif;
+        font-weight: bolder;
+        margin: 0% 1%;
+       }
+       .select-course {
+         width: 100%;
+         height: 3.4em;
+         margin: 0% 1%;
+         border-radius: 5px 5px 5px 5px;
+         border: 2px solid black;
+         font-size: 1.1em;
+         font-family: 'Source Serif Pro', serif;
+         font-weight: bolder;
+         
+         
+       }
+       .course-information-div {
+        display: flex;
+        flex-direction: column;
+      }
+      .course-information-div >h2 {
+        color: mediumseagreen;
+        font-size: 1.2em;
+      }
+      .course-button-div {
+        display: flex;
+        justify-content: center;
+        margin: 4% 0%;
+      }
+      .course-button {
+        background-color: orangered;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        height: 2.5em;
+        font-size: 1.5em;
+        border-radius: 2px 2px 2px 2px;
+        border: none;
+      }
+      .course-department {
+        text-align: center;
+        line-height: 15px;
+        width: 100%;
+      }
+      .course-department-h2 {
+        font-size: 2.5em;
+        font-family: 'Poppins', sans-serif;
+        
+      }
+      .course-department-p {
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+      .course-science {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+        margin: 2% 4%;
+        
+      }
+      .course-images {
+       border-radius: 0%;
+       width: 100%;
+       height: 18rem;
+      }
+      .course-name-science {
+        font-family: 'Source Serif Pro', serif;
+        font-weight: light;
+        line-height: 30px;
+      }
+      .course-business {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+        margin: 2% 4%;
+      }
+      .course-department {
+        text-align: center;
+        line-height: 25px;
+      }
+      .course-department-h2 {
+        font-size: 3em;
+        font-family: 'Poppins', sans-serif;
+        
+      }
+      .course-department-p {
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      
+      }
+      .course-image {
+        background-image: url(course.jpg);
+        background-size: cover;
+        height: 40rem;
+        width: 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        line-height: 35px;
+       margin-bottom: 5%;
+        
+       
+      }
+      .course-h2 {
+        font-size: 3em;
+        margin-top: 20%;
+       
+      }
+      .course-p {
+        font-size: 2em;
+        color: rgb(8, 130, 252);
+        font-family: 'Oswald', sans-serif;
+      }
+      .event-time {
+        height: fit-content;
+        background-color: lightgrey;
+        width: 30%;
+        text-align: center;
+        margin-left: 1%;
+        font-size: 1.3em;
+        padding: 0% 1%;
+        font-family: 'Bitter', serif;
+        border-radius: 5px 5px 5px 5px;
+        display: none; 
+        
+       
+      }
+      .event-fullList {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        font-size: 1.0em;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       
+      }
+      .event-news {
+       margin: 4% 4%;
+       
+        width: 99%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+       text-align: center;
+        border-radius: 10px 10px 10px 10px;
+        background-color: rgb(158, 89, 58);
+        background-color: rgb(54, 114, 114);
+        
+      }
+      .event-image {
+        width: 100%;
+        border-radius: 2px 2px 2px 2px;
+        margin-left: 0%;
+        margin-top: 0%;
+     
+      }
+      .sign-up {
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+      
+        z-index: 3;
+      }
+      .form-details {
+        margin-top: 3%;
+        width: 100%;
+        margin-left: 10%;
+        z-index: 3;
+       
+      
+      }
+      #firstName {
+        width: 80%;
+        height: 2.5rem;
+        border-radius: 5px 5px 5px 5px;
+        caret-color: red;
+        border: 2px solid rgb(72, 242, 233);
+        font-family: 'Bitter', serif;
+        font-size: 1.1em;
+        padding-left: 1%;
+        margin-left: 4%;
+      }
+      #lastName {
+        width: 80%;
+        height: 2.5rem;
+        border-radius: 5px 5px 5px 5px;
+        caret-color: red;
+        border: 2px solid rgb(72, 242, 233);
+        font-family: 'Bitter', serif;
+        font-size: 1.1em;
+        padding-left: 1%;
+        margin-left: 4%;
+      }
+      #Age {
+      
+      height: 2.5rem;
+      width: 81%;
+      border-radius: 5px 5px 5px 5px;
+      border: 2px solid rgb(72, 242, 233);
+      margin-left: 4%;
+      
+      }
+      .span-first-name {
+        font-size: 1.2em;
+        margin-left: 4%;
+        font-family: 'Bitter', serif;
+      }
+      .span-Age {
+        margin-left: 4%;
+        font-size: 1.2em;
+       
+        font-family: 'Bitter', serif;
+        
+      }
+      .h2-details {
+        text-align: center;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 1.3em;
+        margin-right: 5%;
+        
+      }
+      .p-details {
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        margin-left: 4%;
+      }
+      .image-animated {
+       
+        z-index: 1;
+        height: 30rem;
+        width: 100%;
+        margin-right: 10%;
+      }
+      .image-sch {
+        width: 100%;
+      }
+      .span-Gender {
+        margin-left: 4%;
+        font-size: 1.2em;
+       
+        font-family: 'Bitter', serif;
+      }
+      .gender {
+        width: 81.5%;
+        height: 3.5em;
+        border-radius: 5px 5px 5px 5px;
+        border: 2px solid rgb(72, 242, 233);
+        margin-left: 4%;
+        font-family: 'Bitter', serif;
+       
+      }
+      #Email {
+        width: 80%;
+        height: 2.5rem;
+        border-radius: 5px 5px 5px 5px;
+        caret-color: red;
+         border: 2px solid rgb(72, 242, 233);
+         font-family: 'Bitter', serif;
+         font-size: 1.1em;
+         padding-left: 1%;
+         margin-left: 4%;
+         
+       
+      }
+      .span-Email {
+        margin-left: 4%;
+       font-size: 1.2em;
+       
+        font-family: 'Bitter', serif;
+      }
+      #Password {
+        width: 80%;
+        height: 2.5rem;
+        border-radius: 5px 5px 5px 5px;
+        caret-color: red;
+        border: 2px solid rgb(72, 242, 233);
+        font-family: 'Bitter', serif;
+        font-size: 1.1em;
+        padding-left: 1%;
+        margin-left: 4%;
+        
+      }
+      #Confirm-Password {
+        width: 80%;
+        height: 2.5rem;
+        border-radius: 5px 5px 5px 5px;
+        caret-color: red;
+        border: 2px solid rgb(72, 242, 233);
+        font-family: 'Bitter', serif;
+        font-size: 1.1em;
+        padding-left: 1%;
+        margin-left: 4%;
+      }
+      .confirm-Password {
+        margin-left: 4%;
+        font-size: 1.2em;
+       
+        font-family: 'Bitter', serif;
+      }
+      .span-Password {
+        margin-left: 4%;
+        font-size: 1.2em;
+       
+        font-family: 'Bitter', serif;
+      }
+      .sign-up-button {
+        height: 2.5rem;
+        background-color: gold;
+        color: white;
+        border: none;
+        border-radius: 5px 5px 5px 5px;
+        width: 40%;
+        margin-left: 25%;
+        margin-top: 1%;
+        margin-bottom: 3%;
+        font-size: 1.5em;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+      .sign-up-button:hover {
+        background-color: black;
+      }
+      .terms-and-condition {
+        font-family: 'Inter Tight', sans-serif;
+      font-size: 1.1em;
+      font-weight: 500;
+      margin-left: 3.8%;
+      
+      }
+      .error-message {
+        color: orangered;
+        font-family: 'Bitter', serif;
+        font-size: 1.0rem;
+        margin-left: 4%;
+       margin-top: 1%;
+       
+       
+      }
+      .error-message-password {
+        color: orangered;
+        font-family: 'Bitter', serif;
+        font-size: 1.0rem;
+       margin-top: 1%;
+       margin-left: 4%;
+       
+      }
+      .error-message-email {
+        color: orangered;
+        font-family: 'Bitter', serif;
+        font-size: 1.0rem;
+       margin-top: 1%;
+       margin-left: 4%;
+       
+      }
+      .error_message {
+        color: orangered;
+        font-family: 'Bitter', serif;
+        font-size: 1.0rem;
+       text-align: center;
+      margin-left: -37%;
+        margin-top: 1%;
+      }
+      .our-mission {
+        display: flex;
+        align-items: center;
+       flex-direction: column;
+        width: 98%;
+        margin: 6% 1%;
+        font-family: 'Bitter', serif;
+        line-height: 30px;
+      }
+      .our-vision-div {
+        border-right-width: 1px;
+        border-left-color: none;
+       border-left-style: none;
+       border-left-width: 1px;
+       border-top-width: none;
+       border-bottom-width: none;
+       padding-left: 1%;
+      }
+      .contact-us {
+        width: 100%;
+       
+        height: 10rem;
+       
+      padding-top: 3.5%;
+      font-size: 2.5em;
+      background-image: url(iphone-7.jpg);
+      background-repeat: no-repeat;
+      background-position: 0.5%;
+      opacity: 0.7;
+      color: white;
+      background-size: cover;
+      height: 35rem;
+      }
+      .contact-h2 {
+        filter: brightness(100%);
+        color: white;
+      }
+     
+      .contact-us-information-box {
+        font-size: 2.3em;
+       
+    text-align: center;
+       font-family: 'Oswald', sans-serif;
+       
+      
+      }
+      .contact-us-information-box-3 {
+        font-size: 2.3em;
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+      
+      }
+      .contact-us-information {
+        display: block;
+      
+    margin: 4% 0%;
+      
+        width: 98%;
+      }
+      .form-input-contact-us {
+        display: flex;
+      flex-direction: column;
+        gap: 1rem;
+        margin: 4% 4%;
+        
+        
+        }
+        #name-contact {
+          width: 94%;
+          height: 2em;
+          font-size: 1.2em;
+          padding-left: 1%;
+          border: 2px solid black;
+          color: black;
+        }
+        #subject-contact {
+          width: 94%;
+          height: 2em;
+          font-size: 1.2em;
+          padding-left: 1%;
+          border: 2px solid black;
+          color: black;
+        }
+        #email-contact {
+          width: 94%;
+          height: 2em;
+          font-size: 1.2em;
+          padding-left: 1%;
+          border: 2px solid black;
+          color: black;
+        }
+        .leave-us-a-message {
+          text-align: center;
+          font-size: 2.0em;
+          font-weight: bold;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .textarea-contact-us {
+         margin: 1% 1%;
+         width: 90.5%;
+        }
+        #textarea {
+          margin: 1% 2%;
+          width: 98%;
+          border: 2px solid black;
+          
+        }
+        hr {
+          width: 70%;
+          margin: 2.5% 14%;
+         
+        }
+        .send-us-a-message {
+          display: flex;
+          justify-content: center;
+          margin: 1% 0%;
+        }
+        .send-us-a-message-button {
+          background-color: rgb(34, 34, 153);
+          color: whitesmoke;
+          border-radius: 30px 30px 30px 30px;
+          height: 2.7rem;
+          text-align: center;
+          border: none;
+          font-size: 1.0em;
+          cursor: pointer;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .submit-button {
+ 
+          justify-self: center;
+          align-self: center;
+          text-align: center;
+          background-color: orangered;
+          height: 2.5em;
+          width: 20%;
+          border-radius: 3px 3px 3px 3px;
+          border: none;
+          color: white;
+          margin: 2% 2.5%;
+          cursor: pointer;
+        
+        }
+     
+}
+@media only screen and (max-width: 480px)  {
+  .dropdown {
+    display: block;
+  z-index: 3;
+ 
+background-color: lightgray;
+    width: 0%;
+    height: fit-content;
+    position: absolute;
+    left: -30rem;
+    top: 3.0rem;
+    transition: all;
+    transition-duration: 1s;
+  }
+  
+  .group-button-dropdown {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+   justify-content: center;
+   align-items: center;
+  
+  }
+  .dropdown-ul {
+    text-align: center;
+    list-style-type: none;
+
+  }
+  .dropdown-li {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-size: 1.5em;
+    font-family: 'Source Serif Pro', serif;
+    color: black;
+
+  }
+  .dropdown-div {
+    text-align: center;
+  }
+  .image-animated {
+ display: none;
+    z-index: 1;
+    height: 30rem;
+    width: 100%;
+    margin-right: 10%;
+  }
+  .image-sch {
+    width: 100%;
+  }
+  .opening-hours {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center; 
+   text-align: center;
+  font-size: 0.9em;
+ text-align: center;
+ font-family: 'Bitter', serif;
+ 
+}
+.sign-up {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+
+  z-index: 3;
+}
+.form-details {
+  margin-top: 3%;
+  width: 100%;
+  margin-left: 2%;
+  z-index: 3;
+ 
+
+}
+#firstName {
+  width: 87%;
+  height: 2.5rem;
+  border-radius: 5px 5px 5px 5px;
+  caret-color: red;
+  border: 2px solid rgb(72, 242, 233);
+  font-family: 'Bitter', serif;
+  font-size: 1.1em;
+  padding-left: 1%;
+  margin-left: 2%;
+  margin-top: 2%;
+  margin-bottom: 2.5%;
+}
+#lastName {
+  width: 87%;
+  height: 2.5rem;
+  border-radius: 5px 5px 5px 5px;
+  caret-color: red;
+  border: 2px solid rgb(72, 242, 233);
+  font-family: 'Bitter', serif;
+  font-size: 1.1em;
+  padding-left: 1%;
+  margin-left: 2%;
+  margin-top: 2%;
+  margin-bottom: 2.5%;
+}
+#Age {
+
+height: 2.5rem;
+width: 88%;
+border-radius: 5px 5px 5px 5px;
+border: 2px solid rgb(72, 242, 233);
+margin-left: 2%;
+margin-top: 2%;
+margin-bottom: 2.5%;
+font-size: 1.2em;
+font-family: 'Bitter', serif;
+
+}
+.span-first-name {
+  font-size: 1.1em;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  font-family: 'Bitter', serif;
+}
+.span-Age {
+  margin-left: 2%;
+  font-size: 1.1em;
+ 
+  font-family: 'Bitter', serif;
+  
+}
+.h2-details {
+  text-align: center;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.1em;
+  margin-right: 2%;
+  
+}
+.p-details {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  margin: 4% 2%;
+}
+.image-animated {
+ 
+  z-index: 1;
+  height: 30rem;
+  width: 100%;
+  margin-right: 10%;
+}
+.image-sch {
+  width: 100%;
+}
+.span-Gender {
+  margin-left: 2%;
+  font-size: 1.1em;
+ 
+  font-family: 'Bitter', serif;
+}
+.gender {
+  width: 90.9%;
+  height: 3.2em;
+  border-radius: 5px 5px 5px 5px;
+  border: 2px solid rgb(72, 242, 233);
+  margin-left: 2%;
+  font-size: 1.1em;
+  background-color: white;
+  font-family: 'Bitter', serif;
+  margin-top: 2%;
+  margin-bottom: 2.5%;
+ 
+}
+#Email {
+  width: 87%;
+  height: 2.5rem;
+  border-radius: 5px 5px 5px 5px;
+  caret-color: red;
+   border: 2px solid rgb(72, 242, 233);
+   font-family: 'Bitter', serif;
+   font-size: 1.1em;
+   padding-left: 1%;
+   margin-left: 2%;
+   margin-top: 2%;
+   margin-bottom: 2.5%;
+   
+ 
+}
+.span-Email {
+  margin-left: 2%;
+ font-size: 1.1em;
+ 
+  font-family: 'Bitter', serif;
+}
+#Password {
+  width: 87%;
+  height: 2.5rem;
+  border-radius: 5px 5px 5px 5px;
+  caret-color: red;
+  border: 2px solid rgb(72, 242, 233);
+  font-family: 'Bitter', serif;
+  font-size: 1.1em;
+  padding-left: 1%;
+  margin-left: 2%;
+  margin-top: 2%;
+  margin-bottom: 2.5%;
+  
+}
+#Confirm-Password {
+  width: 87%;
+  height: 2.5rem;
+  border-radius: 5px 5px 5px 5px;
+  caret-color: red;
+  border: 2px solid rgb(72, 242, 233);
+  font-family: 'Bitter', serif;
+  font-size: 1.1em;
+  padding-left: 1%;
+  margin-left: 2%;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+.confirm-Password {
+  margin-left: 2%;
+  font-size: 1.1em;
+ 
+  font-family: 'Bitter', serif;
+}
+.span-Password {
+  margin-left: 2%;
+  font-size: 1.1em;
+ 
+  font-family: 'Bitter', serif;
+}
+.sign-up-button {
+  height: 2.5rem;
+  background-color: gold;
+  color: white;
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+  width: 55%;
+  margin-left: 20%;
+  margin-top: 1%;
+  margin-bottom: 3%;
+  font-size: 1.5em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.sign-up-button:hover {
+  background-color: black;
+}
+.terms-and-condition {
+  font-family: 'Inter Tight', sans-serif;
+font-size: 1.0em;
+font-weight: 500;
+margin: 0% 2%;
+}
+.error-message {
+  color: orangered;
+  font-family: 'Bitter', serif;
+  font-size: 1.0rem;
+  margin-left: 2%;
+ margin-top: 1%;
+ 
+ 
+}
+.error-message-password {
+  color: orangered;
+  font-family: 'Bitter', serif;
+  font-size: 1.0rem;
+ margin-top: 1%;
+ margin-left: 2%;
+ 
+}
+.error-message-email {
+  color: orangered;
+  font-family: 'Bitter', serif;
+  font-size: 1.0rem;
+ margin-top: 1%;
+ margin-left: 2%;
+ 
+}
+.error_message {
+  color: orangered;
+  font-family: 'Bitter', serif;
+  font-size: 1.0rem;
+ text-align: center;
+margin-right: -11%;
+  margin-top: 1%;
+}
+.sign-up-link {
+  color: white;
+  text-decoration: none;
+}
+
+.checkbox {
+  accent-color: dodgerblue;
+}
+.opening-hourss {
+  background-color: black;
+    color: white;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center; 
+   text-align: center;
+  font-size: 20px;
+ text-align: center;
+ font-family: 'Bitter', serif;
+ 
+ 
+}
+.para1 {
+  border-radius: 1px 1px 1px 1px;
+   width: 100%;
+  height: 20rem;
+   transition: all;
+   transition-duration: 2s;
+   margin-top: 0%;
+ 
+ }
+ 
+ .para2 {
+   border-radius: 1px 1px 1px 1px;
+   position: relative;
+   height: 20rem;
+   left: 0rem;
+   width: 100%;
+ 
+   margin-top: 0%;
+   transition: all;
+   transition-duration: 2s;
+   
+ }
+ .imgs{
+   width: 100%;
+ }
+ .main {
+   display: flex;
+   justify-content: space-between;
+   gap: 0rem;
+  height: 50rem;
+  overflow: hidden;
+ overflow-x: hidden;
+   width: 100%;
+   margin-top: 0%;
+ }
+ .main-1 {
+  margin-top: 0%;
+   width: 100%;
+   position: relative;
+   left: 0rem;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   transition: all;
+   transition-duration: 0.4s;
+   top: -2rem;
+   
+ }
+ .main-2 {
+  
+   width: 0%;
+   position: relative;
+   left: 0rem;
+   transition: all;
+   transition-duration: 0.1s;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-top: 0%;
+   top: -2rem;
+ }
+ .name-of-schools {
+ font-size: 1.0em;
+  
+ 
+}
+.education-logo {
+  width: 16%;
+  border-radius: 50%;
+ 
+}
+.leading-school {
+  font-size: 1.9em;
+  font-family: 'Bitter', serif;
+}
+.leading-school-paragraph {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+  font-size: 1.0em;
+  line-height: 36px;
+}
+.main-1-first-div {
+  
+  width: 100%;
+ 
+ 
+  
+}
+.main-1-button {
+  height: 2.5rem;
+  font-size: 1.5em;
+  background-color: dodgerblue;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px 8px 8px 8px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.quick-display {
+  display: none;
+}
+.information-courses {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+  margin-left: 5%;
+ 
+  width: 100%;
+  font-size: 1.2em;
+}
+.our-skills-h2 {
+  text-align: center;
+  font-size: 1.5em;
+}
+.our-skills {
+ margin: 10% 0%;
+}
+.progress-bar {
+  width: 95%;
+  height: 2em;
+  margin: 0% 2%;
+  accent-color: green;
+ 
+}
+.our-skills-strong {
+  margin-left: 2%;
+  font-size: 1.1em;
+  font-family: 'Fira Mono', monospace;
+}
+.our-skills-paragraph {
+  text-align: center;
+  font-family: 'Bitter', serif;
+  font-size: 1.1em;
+}
+.upcoming-events-h2 {
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Bitter', serif; 
+}
+.upcoming-events {
+  line-height: 10px;
+  margin: 6% 0%;
+  margin-top: 10%;
+}
+.view-events {
+  width: 50%;
+  height: 2.2em;
+ border-radius: 30px 30px 30px 30px;
+ background-color: black;
+  color: whitesmoke;
+  margin: 4% 0%;
+  font-size: 1.2em;
+  border: none;
+  cursor: pointer;
+  font-family: 'Bitter', serif; 
+ }
+ .our-awesome-teachers {
+  text-align: center;
+  line-height: 26px;
+  margin: 6% 0%;
+  margin-top: 15%;
+  
+  }
+  .our-awesome-teachers-h2 {
+    font-size: 1.6em;
+    color: orange;
+    font-family: 'Raleway', sans-serif;
+  }
+  .course-h2 {
+    font-size: 1.9em;
+    margin-top: 20%;
+    display: none;
+   
+  }
+  .course-p {
+    font-size: 2em;
+    color: rgb(8, 130, 252);
+    font-family: 'Oswald', sans-serif;
+    margin-left: 2%;
+    display: none;
+  }
+  .course-department {
+    text-align: center;
+    line-height: 20px;
+  }
+  .course-department-h2 {
+    font-size: 2em;
+    font-family: 'Poppins', sans-serif;
+    
+  }
+  .course-department-p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .contact-us-information-box {
+    font-size: 1.5em;
+   
+text-align: center;
+   font-family: 'Oswald', sans-serif;
+   
+  
+  }
+  .contact-us-information-box-3 {
+    font-size: 1.5em;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+  
+  }
+  .contact-us-information {
+    display: block;
+  
+margin: 4% 0%;
+  
+    width: 98%;
+  }
+  .slideshow-changing {
+    display: flex;
+    justify-content: center;
+   
+    margin-top: -10%;
+   
+  }
+  .slideshow-changing > div {
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+   background-color: gray;
+    margin: 2% 1.5%;
+  }
+  #slideshow-changing-secondname {
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+   background-color: lightgray;
+    margin: 2% 1.5%;
+  }
+  #textarea {
+    margin: 3% 3%;
+    width: 98%;
+    border: 2px solid black;
+    height: 9rem;
+    
+  }
+  .button-section {
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    margin: 0% 4%;
+    gap: 15px;
+  background-color: darkblue;
+    width: 23.5rem;
+    height: 25rem;
+  
+    
+        }
+        .input-2 {
+          width: 20rem;
+          height: 3rem;
+          display: none;
+          border-radius: 3px 3px 3px 3px;
+          background-color: lightblue;
+          color: white;
+          font-size: 1.5rem;
+          font-family: monospace;
+          border: 1px solid lightblue;
+        }
+        .input-3 {
+          display: none;
+          height: 3rem;
+          width: 3rem;
+          border-radius: 3px 3px 3px 3px;
+          background-color: lightblue;
+          position: relative;
+          right: 7rem;
+         color: white;
+          font-size: 1.5rem;
+          font-family: monospace;
+          border: 1px solid lightblue;
+        }
+        .input-4 {
+          height: 3rem;
+          border-radius: 3px 3px 3px 3px;
+          background-color: lightblue;
+         color: white;
+          font-size: 1.5rem;
+          font-family: monospace;
+          position: relative;
+          right: 7rem;
+          border: 1px solid lightblue;
+          width: 9rem;
+          display: none;
+          
+        }
+        .submit-button {
+ 
+          justify-self: center;
+          align-self: center;
+          text-align: center;
+          background-color: orangered;
+          height: 2.5em;
+          width: 30%;
+          border-radius: 3px 3px 3px 3px;
+          border: none;
+          color: white;
+          margin: 4% 2.5%;
+          cursor: pointer;
+        font-size: 1.1em;
+        }
+        .question {
+          font-size: 0.9em;
+        }
+        .submit-section {
+          text-align: center;
+          font-family: 'Bitter', serif;
+          font-size: 0.8em;
+          margin: 10% 1%;
+         }
+
+}
